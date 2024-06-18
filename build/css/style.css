@@ -221,7 +221,7 @@ html {
 }
 
 .main__subtitle {
-  padding-bottom: 12px;
+  padding-bottom: 16px;
   font-family: "Noto Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -229,8 +229,9 @@ html {
 }
 
 .main__title {
-  padding-bottom: 60px;
+  padding-bottom: 80px;
   font-weight: 900;
+  line-height: clamp(2rem, 1.164rem + 3.429vw, 4.25rem);
   font-size: clamp(1.75rem, -2.865rem + 7.212vw, 3.625rem);
   text-transform: uppercase;
   color: #594638;
@@ -268,6 +269,7 @@ html {
   -webkit-column-gap: 32px;
      -moz-column-gap: 32px;
           column-gap: 32px;
+  gap: 32px;
 }
 
 .main__right__item--title {
@@ -277,7 +279,7 @@ html {
 }
 
 .main__right__item--descr {
-  padding-top: 8px;
+  padding-top: 16px;
   font-weight: 400;
   font-size: clamp(0.875rem, 0.782rem + 0.381vw, 1.125rem);
   color: #948b89;
