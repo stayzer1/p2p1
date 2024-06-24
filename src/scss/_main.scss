@@ -54,21 +54,18 @@
   left: 300px;
   bottom: -150px;
   z-index: 2;
-  rotate: 30deg;
 }
 .abs-img-main-2 {
   position: absolute;
   bottom: -130px;
-  left: 520px;
+  left: 475px;
   z-index: 2;
-  rotate: 30deg;
 }
 .abs-img-main-3 {
   position: absolute;
   bottom: -60px;
-  left: 440px;
+  left: 390px;
   z-index: 1;
-  rotate: 30deg;
 }
 .main__subtitle {
   padding-bottom: 16px;
@@ -141,17 +138,14 @@
   .abs-img-main-1 {
     bottom: 40px;
     left: 0;
-    width: clamp(11.313rem, 9.813rem + 6.151vw, 13.75rem);
   }
   .abs-img-main-2 {
-    left: 210px;
-    bottom: 50px;
-    width: clamp(9.375rem, 6.684rem + 11.041vw, 13.75rem);
+    left: 168px;
+    bottom: 57px;
   }
   .abs-img-main-3 {
-    left: 120px;
-    bottom: 110px;
-    width: clamp(8.75rem, 6.059rem + 11.041vw, 13.125rem);
+    left: 93px;
+    bottom: 120px;
   }
   .main-container {
     height: 100%;
@@ -186,11 +180,11 @@
     left: 0;
   }
   .abs-img-main-2 {
-    left: 210px;
-    bottom: -40px;
+    left: 171px;
+    bottom: -33px;
   }
   .abs-img-main-3 {
-    left: 120px;
+    left: 92px;
     bottom: 10px;
   }
   .main-container {
@@ -207,15 +201,15 @@
     top: -20px;
   }
   .abs-img-main-1 {
-    bottom: -35px;
+    bottom: -73px;
     left: -20px;
   }
   .abs-img-main-2 {
-    left: 148px;
-    bottom: -22px;
+    left: 143px;
+    bottom: -56px;
   }
   .abs-img-main-3 {
-    left: 91px;
-    bottom: 52px;
+    left: 67px;
+    bottom: 1px;
   }
 }
